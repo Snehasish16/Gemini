@@ -98,11 +98,14 @@
     gap: 15px;
 }
 .main .bottom-info {
-    font-size: 14px;
-    margin: 15px auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 12px auto;
     text-align: center;
     font-weight: 300;
+    line-height: 1.4;
 }
+
 .result {
     padding: 0px 5%;
     max-height: 70vh;
@@ -167,5 +170,17 @@
     }
     .search-box div {
         gap: 5px;
+    }
+    .main-bottom {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    .main .bottom-info {
+        font-size: 12px;
+        text-align: center;
+        white-space: normal;
+        word-break: normal;
+        line-height: 1.5;
     }
 }
